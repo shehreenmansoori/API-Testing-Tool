@@ -1,10 +1,10 @@
-# 🤖 AI-Based API Testing & Workflow Agent
+#  AI-Based API Testing & Workflow Agent
 
 An intelligent, full-stack API testing and automation tool that enables developers to interact with and automate REST APIs using natural language commands or an interactive visual workbench.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Natural Language API Automation**: Chat with an autonomous AI agent to create, update, fetch, patch, and delete resources across your API using simple English.
 - **Intelligent Error Diagnostics**: Converts raw HTTP errors (400, 401, 404, 422, 500) into plain-English explanations with actionable fix suggestions.
@@ -14,7 +14,7 @@ An intelligent, full-stack API testing and automation tool that enables develope
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend:** [FastAPI](https://fastapi.tiangolo.com/), [Uvicorn](https://www.uvicorn.org/)
 - **AI Agent:** [LangChain](https://www.langchain.com/), [ChatGroq](https://groq.com/) / [Mistral AI](https://mistral.ai/)
@@ -41,7 +41,7 @@ An intelligent, full-stack API testing and automation tool that enables develope
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 - Python 3.10+ (or Python 3.14 compatible)
@@ -95,7 +95,7 @@ SECRET_KEY="your_generated_secret_key"
 
 ---
 
-## 🖥️ Running the Application
+##  Running the Application
 
 You will need 3 separate terminal sessions (or run in background):
 
@@ -122,7 +122,7 @@ streamlit run test_app.py
 
 ---
 
-## 💡 Example Natural Language Prompts
+##  Example Natural Language Prompts
 
 Once logged into the Streamlit AI Assistant (`app.py`), try prompts like:
 
@@ -136,6 +136,6 @@ The agent will parse your intent, select the appropriate REST method (`POST`, `G
 
 ---
 
-## 🔒 Security Notice
+##  Security Notice
 
 Never commit your `.env` file or sensitive credentials to GitHub. Always ensure `.env` is listed in `.gitignore` and use `.env.example` for reference.
